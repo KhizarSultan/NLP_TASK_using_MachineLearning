@@ -1,0 +1,31 @@
+#How to use this?
+
+#For Developers:
+open the NLP_TASK.ipynb in Anaconda
+
+#For Users:
+open NLP_TASK.html in the browser
+
+#Problem Statement:
+This tasks involves classifying a set of emails as spam or not spam. The data that you will be using to
+classify the data is available at https://www.cs.cmu.edu/~einat/EnronMeetings-XML.zip
+1. Read and load data from all the files in the train folder
+2. Formulate a dataset based on the content of the email. You can choose any criteria for classifying
+the content as spam or not spam but you need to justify your reasons.
+3. Evaluate your model
+4. Feed some testing data to it and classify is the email was spam or not
+
+
+#Solution:
+(1) i have read all the files in the train folder
+(2) Clean the files using NLP Techniques and create TF-IDF Matrix 
+(3) Apply Kmeans clustering Algorithm to label the dataset i.e creat you clusters (1) Spam (2) Not Spam
+(4) Balance the dataset using SMOTE Algorithm
+(5) Apply GradientBosstingClassifier and Achieve 98% accuracy on validation data
+(6) Apply Model on the test data
+(7) save the ouput of test data into csv files
+
+
+#### NOTE: if you have any query or question regarding this task, please feel free to ask at the below mentioned email:
+khizersultan007@gmail.com
+
