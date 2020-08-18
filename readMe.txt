@@ -1,7 +1,7 @@
 #How to use this?
 
 #For Developers:
-open the NLP_TASK.ipynb in Anaconda
+open the NLP_TASK.ipynb
 
 #For Users:
 open NLP_TASK.html in the browser
